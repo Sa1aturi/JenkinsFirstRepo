@@ -9,7 +9,7 @@ public class SumNatural {
             // sum = sum + i;
             sum += i;
         }
-
+keerthana
         System.out.println("Sum = " + sum);
     }
 }
