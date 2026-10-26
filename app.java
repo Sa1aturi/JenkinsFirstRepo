@@ -1,14 +1,15 @@
-class Main {
+public class SumNatural {
 
-  public static void main(String[] args) {
-    
-    int first = 10;
-    int second = 20;
+    public static void main(String[] args) {
 
-    // add two numbers
-    int sum = first + second;
-    System.out.println(first + " + " + second + " = "  + sum);
-  }
+        int num = 100, sum = 0;
+
+        for(int i = 1; i <= num; ++i)
+        {
+            // sum = sum + i;
+            sum += i;
+        }
+
+        System.out.println("Sum = " + sum);
+    }
 }
-
-10 + 20 = 30
