@@ -10,3 +10,5 @@ class Main {
     System.out.println(first + " + " + second + " = "  + sum);
   }
 }
+
+10 + 20 = 30
